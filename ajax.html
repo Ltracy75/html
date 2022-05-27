@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ajax</title>
+    <!-- <script lang = "javascript">
+    let http = new XMLHttpRequest();
+    http.onload = () => {
+        let resp = http.response;
+        console.log(resp);
+    }
+    http.open("GET", "http://localhost:5220/api/Users");
+    http.send();
+    </script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="js/ajax.js"></script>
+    <link href="css/cv.css" rel = "stylesheet">
+</head>
+<body>
+    <table class="table table-dark table-hover">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Username</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Reviewer?</th>
+                <th>Admin?</th>
+                </tr>
+        </thead>
+        <tbody id="users">
+
+        </tbody>
+    </table>
+    
+</body>
+</html>

@@ -1,0 +1,44 @@
+
+    p {color: green; font-weight: bolder; font-style: italic;}
+
+.heads
+{
+ margin: 1px;
+ padding: top 1px;
+}
+*{
+    
+    font-family:  Courier, 'Courier New', monospace;
+    
+
+}
+body
+{
+    background-color:rgb(134, 134, 134) 
+}
+
+
+.nyan
+{
+    border-radius: 50% 20% / 10% 40%;
+}
+button {
+    background-color: rgba(233, 85, 12, 0.729); margin-right:10px
+}
+
+#dad
+{
+    font-style: italic; text-align: center; color: darkred;
+}
+
+.pops
+{
+    font-style: italic  ; text-align: center;
+}
+
+
+.red
+{
+    color:rgb(255, 0, 0)
+}
+
